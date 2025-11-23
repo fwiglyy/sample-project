@@ -6,6 +6,7 @@ This is a demo project created for Markdown practice.
 - Simple folder
 - README file
 - Basic Markdown elements
+- This project now includes a GitHub Pages site.
 
 ## Code Example
 ```python
