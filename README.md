@@ -9,4 +9,6 @@ This is a demo project created for Markdown practice.
 
 ## Code Example
 ```python
+
 print("Hello, world!")
+##Updated project description.
