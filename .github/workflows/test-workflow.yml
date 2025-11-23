@@ -15,16 +15,17 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: '3.11'
 
       - name: Install dependencies
         run: |
-          pip install requests
+          python -m pip install --upgrade pip
+          python -m pip install requests
 
       - name: Run test script
         run: |
           echo "Running tests..."
-          python3 - << 'EOF'
+          python - << 'EOF'
 import requests
 print("Test passed: Able to import requests")
 EOF
