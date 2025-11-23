@@ -1,6 +1,7 @@
 # Sample Project
 
 This is a demo project created for Markdown practice.
+Fix for broken link issue.
 
 ## Features
 - Simple folder
